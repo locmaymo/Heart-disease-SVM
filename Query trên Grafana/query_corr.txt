@@ -1,0 +1,1 @@
+SELECT btl_iot.corr_tbl.feature, abs(btl_iot.corr_tbl.corr) as corr FROM btl_iot.corr_tbl ORDER BY ABS(corr) DESC LIMIT 50
